@@ -1,0 +1,19 @@
+
+header{
+  background: #FBD062;   
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+header::after{
+  content: " ";
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  background:#fff;
+  clip-path: polygon(100% 10%, 0% 100%, 100% 100%);
+}

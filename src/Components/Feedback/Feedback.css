@@ -1,0 +1,27 @@
+.feedback-section{
+  margin:80px auto;
+}
+.feedbacks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  border-radius: 3px;
+  margin: 60px 0px;;
+}
+.feedback {
+  flex:1 1 250px;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  padding:20px
+}
+.f-top{
+  display: flex;
+  gap:15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.f-top img{
+  width: 50px;
+}

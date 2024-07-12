@@ -1,0 +1,13 @@
+.work-section {
+  background:#111430 ;
+  padding-top: 20px;
+  padding-bottom:80px;
+  padding-left: 10%;
+}
+.works{
+  display: flex;
+  gap:30px;
+}
+.text-white{
+  color:#fff;
+}
